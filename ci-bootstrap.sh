@@ -30,6 +30,10 @@ if [ "$(unamer)" = "Darwin" ]; then
             COVERITY_DEVELOPER_DIR="${XCODE_DIR/VERSION/12.2}"
             ;;
         
+        LEGACY_TOOL)
+            BUILD_DEVELOPER_DIR="${XCODE_DIR/VERSION/9.4.1}"
+            ;;
+        
         *)
             echo "ERROR: Invalid project type!"
             exit 1
