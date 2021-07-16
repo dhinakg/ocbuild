@@ -459,7 +459,7 @@ if [ "$(type -t package)" = "function" ]; then
             cp "UDK/Build/${RELPKG}/${rtarget}_${toolchain}/${ARCHS[0]}"/*.zip Binaries || echo skipping
           fi
         fi
-      fi
+      done
     done
   fi
 fi
